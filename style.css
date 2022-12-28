@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.navbar a{
+    text-align: center;
+    cursor: none;
+}
+
+
+.navbar p{
+    font-size: 36px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-weight: 200;
+    user-select: none;
+    color: rgb(197, 59, 59);
+}
+.menu{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 15px 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+
+}
+
+.menu ul li a:hover{
+    color: white;
+
+}
+
+.menu ul li:hover{
+    background-color:rgb(197, 59, 59);
+    transition: 0.5s;
+}
+
+.biyografi{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 75px;
+}
+
+.conteiner{
+    max-width: 1050px;
+    margin: auto;
+}
+
+.biyografi a img{
+    background:transparent;
+    box-shadow:5px 5px 5px #999;
+}
+
+.conteiner .biyografi .text{
+    text-align: left;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 520px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+}
+
+.text-div{
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+
+.ortacubuk{
+    position: absolute;
+    top: 10%;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(197, 59, 59);
+}
+
+.konserler{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.conters-text{
+    right: 50px;
+    width: 520px;
+    text-align: right;
+    bottom: 40px;
+    right: 50px;
+    width: 520px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+
+}
+
+
+.screen-half{
+    position: absolute;
+}
+
+.screen-half-two{
+    position: absolute;
+    right: 10px;
+}
+
+.ortacubuk-two{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(197, 59, 59);
+    right: 410px;
+    top:60px;
+}
+
+.container-two{
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    height: 80vh;
+}
+
+.spotify-list{
+    display: block;
+
+}
+
+.container-tree{
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    height: 80vh;
+}
+
+.baslik .diskografi{
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    border-left: 4px solid rgb(197, 59, 59);
+    padding-left: 28px;
+
+}
+
